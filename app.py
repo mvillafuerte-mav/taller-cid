@@ -118,7 +118,7 @@ def index():
             
             header {{
                 background: linear-gradient(135deg, #2E86AB 0%, #457B9D 100%);
-                color: white;
+                color: black;
                 padding: 40px;
                 text-align: center;
             }}
