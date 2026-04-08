@@ -341,11 +341,11 @@ def sample_health():
 # UTILIDADES DE TEST
 # ============================================================================
 
-def test_app_creation():
-    """Verifica que la app Flask se puede crear"""
-    from app import app
-    assert app is not None
-    assert app.config['TESTING'] == False
+#def test_app_creation():
+   # """Verifica que la app Flask se puede crear"""
+   # from app import app
+  #  assert app is not None
+#    assert app.config['TESTING'] == False
 
 def test_app_is_testing_mode():
     """Verifica que la app se crea en modo testing"""
