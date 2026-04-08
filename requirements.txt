@@ -1,0 +1,43 @@
+# ============================================================================
+# requirements.txt - Dependencias de Producción
+# ============================================================================
+# Instalar con: pip install -r requirements.txt
+# ============================================================================
+
+# Web Framework
+flask
+flask-cors
+
+# Visualización
+matplotlib
+pandas
+numpy
+
+# Servidor WSGI (para Render)
+gunicorn
+
+# Utilidades
+python-dotenv
+requests
+
+# ============================================================================
+# requirements-dev.txt - Dependencias de Desarrollo
+# ============================================================================
+# Instalar con: pip install -r requirements-dev.txt
+# ============================================================================
+
+# Testing
+pytest
+pytest-cov
+
+# Code Quality
+pylint
+black
+isort
+
+# Security
+bandit
+
+# Documentation
+sphinx
+sphinx-rtd-theme
